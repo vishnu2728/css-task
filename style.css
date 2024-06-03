@@ -1,0 +1,269 @@
+*{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navbar{
+  padding-right: 15px;
+  padding-left: 15px; 
+
+}
+.navdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.logo
+{
+   display: inline-flex;
+  
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    align-items: center;
+   
+}
+.logo h3{
+    display: inline-flex;
+    text-align: right;
+    margin-top: 10px;
+}
+.logo img{
+    height: 20px;
+    width: 20px;
+}
+.login
+{
+    display: inline;
+    color: #4CAF4F;
+}
+button {
+    background-color:#4CAF4F;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 91px;
+    height: 40px;
+    color: #fff;
+    border-color: #4CAF4F;
+}
+.section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 4rem;
+    width: 70%;
+  
+}
+.section h1
+{
+    font-size: 50px;
+    color: #4D4D4D;
+}
+.text span{
+    color:#4CAF4F;
+    font-size: 50px;
+}
+.section img
+{
+    height: 250px;
+}
+.section p
+{
+    color:#717171 ;
+}
+.cilent
+{
+    text-align: center;
+}
+.cilent h2
+{
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.cilent p
+{
+   color: #717171;
+    font-size: 16px;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 20px; 
+}
+
+.logo {
+    width: 40Spx; 
+    height: auto;
+    margin: 10px;
+}
+.text-container
+{
+    text-align: center;   
+}
+.text-container h2
+{
+   font-size: 36px;
+   color:#4D4D4D ; 
+}
+.text-container p
+{
+    font-size: 16px;
+    color: #717171;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    flex: 1; 
+    max-width: 300px; 
+    box-sizing: border-box;
+    text-align: center; 
+} 
+
+.card img {
+    max-width: 100%; 
+} 
+.card-container h3
+{
+    font-size: 28px;
+    color:#4D4D4D ;
+}
+.card-container p
+{
+    font-size: 14px;
+    color:#717171 ;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    
+}
+
+.image-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.image-container img {
+    width: 70%;
+    height: auto;
+    display: block;
+    align-items: center;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.text-container h1 {
+    margin-top: 0;
+}
+.item {
+    display: grid;
+   
+}
+
+.count-item {
+    display: grid;
+}
+
+.icon {
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.number {
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image-container,
+    .text-container {
+        min-width: 100%;
+    }
+    
+}  
+.client-updates {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    justify-content: center;
+}
+.client-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    gap: 15px;
+}
+
+@media screen and (max-width: 932px) {
+    .client-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 10px;
+        gap: 15px;
+    }
+}
+
+.client-img {
+    grid-row: 1/5;
+    grid-column: 1/2;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.client-uptext {
+    grid-row: 4/6;
+    grid-column: 1/2;
+    display: flex;
+    margin-left: 40px;
+    max-width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px -4px lightblue;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-inline: 20px;
+}
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 37px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(73, 79, 82, 0.342);
+    color: white;
+}
